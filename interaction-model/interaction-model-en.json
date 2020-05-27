@@ -1,0 +1,139 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "human body guide",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      },
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "open human body guide",
+            "human body guide",
+            "alexa open human body guide"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "abort",
+            "take me out",
+            "i want to exit",
+            "i want to quit",
+            "i wanna exit",
+            "goodbye",
+            "i quit",
+            "quit",
+            "exit",
+            "bye"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "askAboutVitamin",
+          "slots": [
+            {
+              "name": "VitaminsList",
+              "type": "vitaminsList"
+            }
+          ],
+          "samples": [
+            "{VitaminsList}",
+            "Tell me about {VitaminsList}",
+            "Organ {VitaminsList}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": ["yup", "yeah", "yes"]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": ["nah", "no"]
+        }
+      ],
+      "types": [
+        {
+          "name": "vitaminsList",
+          "values": [
+            {
+              "name": {
+                "value": "brain",
+                "synonyms": ["mind"]
+              }
+            },
+            {
+              "name": {
+                "value": "heart"
+              }
+            },
+            {
+              "name": {
+                "value": "kidney",
+                "synonyms": ["kidneys"]
+              }
+            },
+            {
+              "name": {
+                "value": "liver"
+              }
+            },
+            {
+              "name": {
+                "value": "lungs",
+                "synonyms": ["lung"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "askAboutVitamin",
+          "delegationStrategy": "SKILL_RESPONSE",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "VitaminsList",
+              "type": "vitaminsList",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.780749748528.289742811129"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.780749748528.289742811129",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which organ do you want to know about ?"
+          }
+        ]
+      }
+    ]
+  }
+}
