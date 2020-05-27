@@ -1,0 +1,13 @@
+{
+  "invocationName": "human body guide",
+  "welcome": "To know about a organ, simply say its name. Try saying, brain, or say, help, to know more. ",
+  "help": "You can ask me about organs. Namely, brain, heart, kidney, liver and lungs . Try saying, brain , to know more about it. ",
+  "didNotUnderstand": "Sorry, I could not understand you, Try again, or say, help, to know more . ",
+  "reprompt": " Try saying, tell me about brain ",
+  "bye": "Okay, Goodbye! ",
+  "vitaminBInfo": " Vitamin B has eight subtypes. Namely, Vitamin B1, B2, B3, B5, B6, B7, B9, and B12 . ",
+  "continueSession": " Do you want to know about another organ ? ",
+  "continueSessionReprompt": " If you want to know about other organs, say Yes, or Say, No, to exit . ",
+  "askMore": " Which organ do you want to know about ? ",
+  "continueSessionForVitaminB": "Try Saying , brain , to know more about it, or say, bye, to exit . "
+}

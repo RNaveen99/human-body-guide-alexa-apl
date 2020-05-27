@@ -1,0 +1,37 @@
+{
+  "brain": {
+    "name": "Human Brain",
+    "uses": "The human brain is the body's control center, receiving and sending signals to other organs through the nervous system and through secreted hormones. It is responsible for our thoughts, feelings, memory storage and general perception of the world.",
+    "sources": "Here's a fact. The human brain contains about hundred billion nerve cells. ",
+    "diseases": "",
+    "imageURL": "https://s3.amazonaws.com/human-guide-apl/ok+brain.png"
+  },
+  "heart": {
+    "name": "Human Heart",
+    "uses": "The human heart is a responsible for pumping blood throughout our body. The heart has four chambers, two upper atria, the receiving chambers, and two lower ventricles, the discharging chambers.",
+    "sources": "Here's a fact. A human heart is roughly the size of a large fist. The heart beats about one hundred thousand times per day or about three billion beats in a lifetime. The heart pumps about 5.7 liters of blood throughout the body. ",
+    "diseases": "",
+    "imageURL": "https://s3.amazonaws.com/human-guide-apl/ok+heart.png"
+  },
+  "kidney": {
+    "name": "Kidneys",
+    "uses": "The job of the kidneys is to remove waste and extra fluid from the blood. The kidneys take urea out of the blood and combine it with water and other substances to make urine.",
+    "sources": "Here's a fact. Each day, the kidneys process about 200 quarts or 50 gallons of blood to filter out about 2 quarts of waste and water. ",
+    "diseases": "",
+    "imageURL": "https://s3.amazonaws.com/human-guide-apl/ok+kidney.png"
+  },
+  "liver": {
+    "name": "Liver",
+    "uses": "The liver has many functions, including detoxifying of harmful chemicals, breakdown of drugs, filtering of blood, secretion of bile and production of blood-clotting proteins. ",
+    "sources": "Here's a fact. Like Wolverine, the liver has the incredible ability to completely regrow, and it only needs as little as 25 percent of the original tissue to do so.  ",
+    "diseases": "",
+    "imageURL": "https://s3.amazonaws.com/human-guide-apl/ok+liver.png"
+  },
+  "lungs": {
+    "name": "Lungs",
+    "uses": "The lungs are responsible for removing oxygen from the air we breathe and transferring it to our blood where it can be sent to our cells. The lungs also remove carbon dioxide, which we exhale. ",
+    "sources": "Here's a fact. The average adult takes over 20 thousand breaths a day.",
+    "diseases": "",
+    "imageURL": "https://s3.amazonaws.com/human-guide-apl/ok+lungs.png"
+  }
+}
